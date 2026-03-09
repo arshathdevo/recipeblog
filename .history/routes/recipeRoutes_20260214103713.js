@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const Recipe = require("../models/Recipe");
 
-
 // POST - Add new recipe
 router.post("/", async (req, res) => {
   try {
